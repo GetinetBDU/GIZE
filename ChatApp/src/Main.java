@@ -1,4 +1,7 @@
 
+import javax.swing.JOptionPane;
+
+
 
 public class Main {
 
@@ -18,9 +21,9 @@ public class Main {
             }
             
             catch(Exception e){
-                int a=0,b=0 ,sum=0;
+                int a=75,b=4 ,sum=0;
                 sum = a+b;
-            
+                JOptionPane.showMessageDialog(null, sum);
             
             
             }
